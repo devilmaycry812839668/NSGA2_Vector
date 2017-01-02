@@ -16,7 +16,7 @@ def estimate(population, functionObject):
     #所求个体索引列表
     indicateList=[]
 
-    #输入函数数值矩阵，求得个体 分层和拥挤距离 字典
+    #输入函数数值矩阵，求得个体 支配关系 字典
     #函数调用
     individual_layer_value=controlSet(funScore)
 
